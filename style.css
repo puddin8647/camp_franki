@@ -60,3 +60,7 @@ footer {
     background-color: #222;
     padding: 30px 0;
 }
+
+.ac-button {
+    background-color: white !important;
+}

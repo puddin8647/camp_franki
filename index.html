@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Welcome to Camp Franki</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -25,6 +28,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs">FAQS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#gallery">Gallery</a>
@@ -52,8 +58,11 @@
             <h2 class="text-center mb-4">About Our Camp</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <p>Welcome to Camp Franki, where unforgettable memories are made! We offer a diverse range of activities to celebrate Franki's birthday which are designed to foster growth, creativity, and friendships in a safe and supportive environment.</p>
-                    <p>Our experienced staff are dedicated to ensuring every camper has an amazing time, partying and having fun!</p>
+                    <p>Welcome to Camp Franki, where unforgettable memories are made! We offer a diverse range of
+                        activities to celebrate Franki's birthday which are designed to foster growth, creativity, and
+                        friendships in a safe and supportive environment.</p>
+                    <p>Our experienced staff are dedicated to ensuring every camper has an amazing time, partying and
+                        having fun!</p>
                 </div>
                 <div class="col-md-6">
                     <img src="./images/2.jpg.jpg" alt="Camp Activities" class="img-fluid rounded shadow">
@@ -88,12 +97,72 @@
         </div>
     </section>
 
+    <section id="faqs" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb4">FAQS</h2>
+            <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button ac-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What in the world is this
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is your invitation to Ashley Franklin's Birthday Celebration.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button ac-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            When is the party and what time
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>August 9th 2025, 5pm</strong>We are camping overnight, so plan on staying
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button ac-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            Where is the party
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <a href="https://www.google.com/maps/dir//3383%20millmount%20drive%20powhatan%20va">3383 Millmount Drive Powhatan, VA 23139</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button ac-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            What do I need to bring
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            A sleeping bag, unless you like to sleep on the ground. We at Camp Franki arent here to judge how you like to cosplay being homeless. You should also bring whatever alcoholic beverage you prefer and whatever else you feel like bringing. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="gallery" class="parallax-section" style="background-image: url('./images/4.jpg.jpg');">
         <div class="container d-flex align-items-center justify-content-center h-100 text-white text-center">
             <div>
-                <h2 class="display-3 fw-bold">Our Happy Campers</h2>
-                <p class="lead">See the joy and excitement of summer fun!</p>
-                </div>
+                <!-- <h2 class="display-3 fw-bold">Our Happy Campers</h2> -->
+                <!-- <p class="lead">See the joy and excitement of summer fun!</p> -->
+            </div>
         </div>
     </section>
 
@@ -131,4 +200,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
