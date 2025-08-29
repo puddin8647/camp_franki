@@ -55,6 +55,11 @@ section {
     object-fit: cover;
 }
 
+.logo_left {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
 /* Footer Styling */
 footer {
     background-color: #222;
